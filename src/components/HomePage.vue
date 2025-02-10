@@ -88,6 +88,7 @@ nav {
   border-bottom: 1px solid black;
   padding: 20px 40px;
   transition: all 1s ease;
+  position: relative;
 }
 
 /* Sticky Navbar */
@@ -180,12 +181,19 @@ nav.scrolled {
   padding: 10px 20px;
 }
 
-nav.scrolled .Logo {
+nav .Logo {
   width: 13%;
-  animation: slideOut 1s ease forwards;
+  transition: transform 0.5s ease, width 0.5s ease;
+}
+
+nav.scrolled .Logo {
+  transform: scale(0.5); /* Reduce ligeramente el tamaño */
 }
 
 nav:not(.scrolled) .Logo {
-  animation: slideIn 1s ease forwards; /* Vuelve a su posición original cuando se hace scroll hacia arriba */
+  transform: scale(1); /* Vuelve a su tamaño original */
 }
+
+
+
 </style>
