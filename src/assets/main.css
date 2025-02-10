@@ -1,0 +1,11 @@
+:root {
+  --x: 50vw;
+  --y: 50vh;
+}
+
+body {
+  background: radial-gradient(circle at var(--x) var(--y), #A48D5C, #8B8C8A, #F5BF6A);
+  transition: background 0.1s ease-out;
+  min-height: 100vh;
+  margin: 0;
+}
