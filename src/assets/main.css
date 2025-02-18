@@ -9,3 +9,53 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+/* Eliminar el SVG por defecto de las flechas */
+.splide__arrow svg {
+  display: none;
+}
+
+/* Personalizar flechas con imagen */
+.splide__arrow {
+  width: 25px; /* Ajusta según el tamaño de tu imagen */
+  height: 25px;
+  background-color: transparent !important;
+  background-image: url('/src/assets/flechaIzquierda.png'); /* Reemplaza con la ruta de tu imagen */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+}
+
+/* Para la flecha derecha */
+.splide__arrow--next {
+  transform: rotate(180deg); /* Si necesitas girarla */
+}
+
+/* Tamaño más pequeño para los puntos de la paginación */
+.splide__pagination .splide__pagination__page {
+  width: 6px;  /* Ajusta el tamaño del punto */
+  height: 6px; /* Ajusta el tamaño del punto */
+  background-color: rgb(248, 207, 71) !important;
+  opacity: 1;
+}
+
+/* Tamaño más pequeño también para el punto activo */
+.splide__pagination .splide__pagination__page.is-active {
+  background-color: rgb(146, 122, 43) !important;
+  transform: scale(1.2); /* Ajusta la escala si es necesario */
+}
+
+.splide__slide {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100%; /* Ajusta la altura completa del slide */
+}
+
+.splide__slide img {
+  max-width: 100%; /* Evita que la imagen se salga del slide */
+  max-height: 100%; /* Ajusta la altura para que no sobrepase el slide */
+  object-fit: cover; /* Recorta la imagen y centra */
+  object-position: center; /* Asegura que la parte central de la imagen esté visible */
+}

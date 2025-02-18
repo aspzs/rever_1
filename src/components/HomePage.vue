@@ -33,14 +33,14 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.isScrolled = window.scrollY > 50; // Cambia 50 por la cantidad de scroll deseada
+      this.isScrolled = window.scrollY > 1;
     }
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
+  beforeUnmount() { // <- Cambiado de beforeDestroy a beforeUnmount
+    window.removeEventListener("scroll", this.handleScroll);
   }
 };
 </script>
@@ -75,7 +75,7 @@ export default {
 }
 
 .Logo {
-  width: 25%;
+  width: 1000%;
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -153,7 +153,7 @@ body {
 
 @media (max-width: 1686px) {
   .Logo {
-    width: 20%;
+    width: 30%;
   }
 
   .secciones a {
@@ -172,7 +172,8 @@ body {
     font-size: 16px;
   }
   .Logo {
-    width: 25%;
+    display: flex;
+    margin-right: 500%;
   }
 }
 
@@ -182,12 +183,12 @@ nav.scrolled {
 }
 
 nav .Logo {
-  width: 13%;
+  width: 20%;
   transition: transform 0.5s ease, width 0.5s ease;
 }
 
 nav.scrolled .Logo {
-  transform: scale(0.5); /* Reduce ligeramente el tamaño */
+  width: 10%;
 }
 
 nav:not(.scrolled) .Logo {

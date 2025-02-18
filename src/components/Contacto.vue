@@ -24,19 +24,12 @@
       </tbody>
     </table>
 
-    <img src="/images/fototest.jpeg" alt="Rever_foto" class="contactoImg">
+    <img src="/images/fotos/jamalcoStean/jamalcoStean_35.jpg" alt="Rever_foto" class="contactoImg">
   </div>
 </template>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-@font-face {
-  font-family: 'evolve';
-  src: url('../assets/fonts/evolve_sans.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .contact-container {
   max-width: 1000px;
@@ -58,6 +51,8 @@ h2 {
   border-collapse: collapse;
   margin-top: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(245,191,106);
 }
 
 .contact-table td {
@@ -65,12 +60,6 @@ h2 {
   border: 1px solid #000000;
   text-align: left;
 }
-
-.contact-table{
-  color: rgb(0, 0, 0);
-  background-color: rgb(245,191,106);
-}
-
 
 .contact-table td:first-child {
   font-weight: bold;
@@ -88,11 +77,9 @@ a:hover {
 
 /* Estilos de la imagen */
 .contactoImg {
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   margin: 20px auto;
   display: block;
-  border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 

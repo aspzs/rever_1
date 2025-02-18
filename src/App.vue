@@ -39,11 +39,14 @@ const router = createRouter({
 </script>
 
 <template>
+  
       <HomePage/>
 
         <FooterMain/>
 
 
 </template>
+
+
 
 

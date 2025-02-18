@@ -127,19 +127,14 @@ ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  .footer-sections {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .footer-section {
+    flex-direction: column;
     text-align: center;
+    margin-left: -50%;
   }
 
   .logoFooter {
     width: 50%;
-    margin-bottom: 10%;
-    margin-left: 25%;
   }
   .footer-content {
   max-width: 166px;
@@ -153,8 +148,6 @@ ul li a:hover {
     width: 100%;
     flex-direction: column;
     align-items: center;
-
-
   }
 
   .footer {

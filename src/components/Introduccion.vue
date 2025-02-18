@@ -13,10 +13,28 @@
       <div class="carousel-wrapper">
         <Splide :options="options" class="carousel">
           <SplideSlide>
-            <img src="/images/fototest.jpeg" alt="Rever_foto">
+            <img src="/images/fotos/otros/Rever_3.webp" alt="Rever_foto">
           </SplideSlide>
           <SplideSlide>
-            <img src="/images/fototest1.jpeg" alt="Rever_foto">
+            <img src="/images/fotos/otros/Rever_2.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_1.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_4.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_5.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_6.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_7.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_8.webp" alt="Rever_foto">
           </SplideSlide>
         </Splide>
       </div>
@@ -32,6 +50,34 @@
     </div>
 
     <!-- Tabla de proyectos -->
+    <div class="carousel-wrapper">
+        <Splide :options="options" class="carousel">
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_16.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_9.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_10.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_11.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_12.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_13.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_14.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_15.webp" alt="Rever_foto">
+          </SplideSlide>
+        </Splide>
+      </div>
     <table class="responsive-table2">
       <tbody>
         <tr>
@@ -43,16 +89,7 @@
       </tbody>
     </table>
 
-    <div class="carousel-wrapper">
-        <Splide :options="options" class="carousel">
-          <SplideSlide>
-            <img src="/images/fototest.jpeg" alt="Rever_foto">
-          </SplideSlide>
-          <SplideSlide>
-            <img src="/images/fototest1.jpeg" alt="Rever_foto">
-          </SplideSlide>
-        </Splide>
-      </div>
+
 
     <!-- Industria Section -->
      <div class="responsive-table3 p-8">
@@ -72,10 +109,28 @@
     <div class="carousel-wrapper">
         <Splide :options="options" class="carousel">
           <SplideSlide>
-            <img src="/images/fototest.jpeg" alt="Rever_foto">
+            <img src="/images/fotos/otros/Rever_17.webp" alt="Rever_foto">
           </SplideSlide>
           <SplideSlide>
-            <img src="/images/fototest1.jpeg" alt="Rever_foto">
+            <img src="/images/fotos/otros/Rever_18.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_19.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_20.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_21.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_22.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_23.webp" alt="Rever_foto">
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/images/fotos/otros/Rever_24.webp" alt="Rever_foto">
           </SplideSlide>
         </Splide>
       </div>
@@ -227,7 +282,7 @@ h1 {
 }
 
 .carousel {
-  max-width: 100%;
+  max-width: 200%;
 }
 
 .splide img {

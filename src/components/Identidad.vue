@@ -1,15 +1,16 @@
 <template>
-  <div class="container">
+      <HomePage/>
+      <div class="container">
     <section>
       <Splide :options="options" class="carousel">
         <SplideSlide>
-          <img src="/images/fototest.jpeg" alt="Rever_foto">
+          <img src="/images/fotos/otros/Rever_6.webp" alt="Rever_foto">
         </SplideSlide>
         <SplideSlide>
-          <img src="/images/fototest1.jpeg" alt="Rever_foto">
+          <img src="/images/fotos/otros/Rever_9.webp" alt="Rever_foto">
         </SplideSlide>
         <SplideSlide>
-          <img src="/images/fototest.jpeg" alt="Rever_foto">
+          <img src="/images/fotos/otros/Rever_13.webp" alt="Rever_foto">
         </SplideSlide>
       </Splide>
     </section>
@@ -28,6 +29,19 @@
       <div class="modal">
         <h2>Nuestra misión</h2>
         <p>Desarrollar, construir y gestionar proyectos de infraestructura proporcionando soluciones a nuestros clientes, logrando el cumplimiento de los objetivos trazados y posicionarnos dentro de la industria de la construcción a nivel global como una empresa altamente confiable.</p>
+        <section>
+      <Splide :options="options" class="carousel">
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_2.webp" alt="Rever_foto">
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_17.webp" alt="Rever_foto">
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_19.webp" alt="Rever_foto">
+        </SplideSlide>
+      </Splide>
+    </section>
         <button @click="isOpen1 = false" class="close-btn">Cerrar</button>
       </div>
     </div>
@@ -36,6 +50,19 @@
       <div class="modal">
         <h2>Nuestra visión</h2>
         <p>Somos innovadores y comprometidos con las metas de nuestros proyectos, interactuando proactivamente y generando la confianza de nuestros clientes.</p>
+        <section>
+      <Splide :options="options" class="carousel">
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_13.webp" alt="Rever_foto">
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_24.webp" alt="Rever_foto">
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_8.webp" alt="Rever_foto">
+        </SplideSlide>
+      </Splide>
+    </section>
         <button @click="isOpen2 = false" class="close-btn">Cerrar</button>
       </div>
     </div>
@@ -44,6 +71,19 @@
       <div class="modal">
         <h2>Nuestros valores</h2>
         <p>Excelencia, Pasión e Innovación.</p>
+        <section>
+      <Splide :options="options" class="carousel">
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_21.webp" alt="Rever_foto">
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_4.webp" alt="Rever_foto">
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/images/fotos/otros/Rever_22.webp" alt="Rever_foto">
+        </SplideSlide>
+      </Splide>
+    </section>
         <button @click="isOpen3 = false" class="close-btn">Cerrar</button>
       </div>
     </div>
@@ -183,7 +223,7 @@ const options = {
   background: rgb(248, 207, 71, 0.6);
   color: #ecf0f1;
   display: flex;
-  font-size: 150%;
+  font-size: 130%;
   justify-content: center;
   align-items: center;
   z-index: 5000;
@@ -192,13 +232,15 @@ const options = {
 .modal {
   background: rgb(139,140,138);
   padding: 25px;
-  border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 70%;
+  font-size: 90%;
   text-align: center;
   animation: fadeIn 0.3s ease-in-out;
 }
-
+.modal h2{
+  color: rgb(248, 207, 71);
+}
 /* Tabla */
 .table-container {
   margin-top: 50px;
@@ -250,7 +292,6 @@ const options = {
 .carousel {
   max-width: 800px;
   margin: 20px auto;
-  border-radius: 12px;
   overflow: hidden;
 }
 
@@ -258,7 +299,6 @@ const options = {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
-  border-radius: 12px;
 }
 
 /* Animaciones */
