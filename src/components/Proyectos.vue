@@ -103,7 +103,7 @@ const projects = ref([
     description: 'Instalación de 30,350 m² de Geomembrana de HDPE de 2mm doble cara texturizada WINDALCO / ECD (Effluent Collector Ditch)',
     date: '21 Marzo 2022 - 22 Abril 2022',
     location: 'Ewarthon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
   { 
     id: 2, 
@@ -120,7 +120,7 @@ const projects = ref([
     description: 'Instalación de 74,100 m² de Geomembrana de HDPE de 2mm doble cara texturizada y Geotextil WINDALCO / EHP (Effluent Holding Pond)',
     date: '10 Agosto 2022 - 4 Octubre 2022',
     location: 'Ewarthon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
   { 
     id: 3, 
@@ -139,7 +139,7 @@ const projects = ref([
     description: 'Instalación de 55,649 m² de Geomembrana de HDPE de 2mm doble cara texturizada y Geotextil WINDALCO / EHP (Effluent Holding Pond)',
     date: '6 Mayo 2023 - 6 Junio 2023',
     location: 'Ewarthon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
   { 
     id: 4, 
@@ -174,7 +174,7 @@ const projects = ref([
     description: 'Trabajos de Obra Mecánica y Tuberías para restauración de Powerhouse dentro de Refinería Jamalco en Hayes, Clarendon, Jamaica.',
     date: '09 Nov 2022 - 19 Nov 2022',
     location: 'Clarendon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
   { 
     id: 5, 
@@ -196,7 +196,7 @@ const projects = ref([
     description: 'Instalación de Geomembrana de HDPE de 2mm doble cara texturizada y Geotextil JAMALCO en diques de Tanques para aprobación de NEPA.',
     date: '22 Febrero 2024 - 4 Mayo 2024',
     location: 'Clarendon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
   { 
     id: 6, 
@@ -219,7 +219,7 @@ const projects = ref([
     description: 'Construcción de Edificio para Turbina de 45MW, Instalación de Estructura de Racks de Tubería.',
     date: '22 Enero 2025 - En Proceso',
     location: 'Clarendon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
   { 
     id: 7, 
@@ -240,7 +240,7 @@ const projects = ref([
     description: 'Servicio de Topografía para el desarrollo de las Obras Civiles y Estructurales dentro del Proyecto 45MW Steam Turbine Generator.',
     date: '22 Enero 2025 - En Proceso',
     location: 'Hayse, Clarendon, Jamaica',
-    internacional: true,
+    jamaica: true,
   },
 ]);
 
