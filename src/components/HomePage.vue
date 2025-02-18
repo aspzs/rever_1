@@ -173,7 +173,6 @@ body {
   }
   .Logo {
     display: flex;
-    margin-right: 500%;
   }
 }
 
