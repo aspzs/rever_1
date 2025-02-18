@@ -1,5 +1,4 @@
 <template>
-      <HomePage/>
       <div class="container">
     <section>
       <Splide :options="options" class="carousel">
@@ -98,8 +97,8 @@
       <table class="goals-table">
         <tbody>
           <tr>
-            <td><img src="/global.svg" alt="Rever_foto"></td>
-            <td><img src="/excelencia.svg" alt="Rever_foto"></td>
+            <td><img src="/global.svg" alt="Rever_foto" class="logotipo"></td>
+            <td><img src="/excelencia.svg" alt="Rever_foto" class="logotipo"></td>
           </tr>
           <tr>
             <td>Mercado global</td>
@@ -139,6 +138,7 @@ const options = {
   height: '400px',
 };
 </script>
+
 
 <style scoped>
 /* General */
@@ -247,6 +247,7 @@ const options = {
   text-align: center;
   overflow-x: auto; /* Permite scroll horizontal si es necesario */
   padding: 10px;
+  width: 100%;
 }
 
 .table-container h2 {
@@ -344,15 +345,22 @@ const options = {
     display: block;
     margin: 0 auto;
   }
+  
 }
 
 /* Para pantallas menores a 480px (móviles pequeños) */
 @media (max-width: 480px) {
   .table-container {
-  width: 30px;
+    width: 100%;
   margin-top: 50px;
+  margin-left: -3%;
   text-align: center;
 }
+
+.logotipo{
+  display: none;
+}
+
 
   .goals-table td {
     width: 100%;
@@ -361,7 +369,7 @@ const options = {
   }
 
   .goals-table img {
-    max-width: 10px;
+    max-width: 100%;
   }
 }
 

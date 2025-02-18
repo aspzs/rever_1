@@ -200,7 +200,7 @@ const projects = ref([
   },
   { 
     id: 6, 
-    title: 'Construcción', 
+    title: 'Construcción de Edificio para Turbina', 
     info: 'Turbina de 45MW',
     image: '/images/fotos/otros/Rever_13.webp',
     images: [
@@ -223,7 +223,7 @@ const projects = ref([
   },
   { 
     id: 7, 
-    title: 'Servicio', 
+    title: 'Servicio de Topografia', 
     info: 'Servicio de Topografía',
     image: '/images/fotos/otros/Rever_24.webp',
     images: [
@@ -267,7 +267,7 @@ const closeModal = () => {
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 20px;
-  color: rgb(82, 78, 66);
+  color: rgb(255, 255, 255);
 }
 
 .section-titleInfo {

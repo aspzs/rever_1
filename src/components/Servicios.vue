@@ -2,6 +2,8 @@
   <div class="services-container">
     <div class="projects-container">
     <h3 class="section-title">Nuestros Servicios</h3>
+    <h4 class="section-titleInfo">Ofrecemos soluciones integrales en la fabricación, montaje e instalación de sistemas industriales y civiles, incluyendo tuberías, estructuras metálicas, geosintéticos, y obras electromecánicas. Contamos con servicios de topografía, cálculos e ingeniería para asegurar la correcta ejecución de proyectos de infraestructura, siempre con un enfoque en calidad y eficiencia.</h4>
+
     <div class="projects-grid">
       <div v-for="project in projects" :key="project.id" class="project-card">
         <img :src="project.image" :alt="project.title" class="project-image" />
@@ -64,15 +66,23 @@ const projects = ref([
 
 .section-title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
 }
+
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+}
+ 
+.section-titleInfo {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 50px;
+  color: rgb(223, 220, 211);
 }
 
 .project-card {

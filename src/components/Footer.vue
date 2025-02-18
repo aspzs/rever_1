@@ -130,7 +130,6 @@ ul li a:hover {
   .footer-section {
     flex-direction: column;
     text-align: center;
-    margin-left: -50%;
   }
 
   .logoFooter {
