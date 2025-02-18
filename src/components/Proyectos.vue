@@ -342,7 +342,7 @@ const closeModal = () => {
   border-radius: 10px;
   width: 80%;
   max-width: 500px;
-  margin-top: 30%;
+  margin-top: 50%;
 }
 
 .project-table {
